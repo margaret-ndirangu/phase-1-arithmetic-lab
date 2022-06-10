@@ -4,10 +4,8 @@ const num3 = 54;
 const num4 = 5;
 const multiply = num1 * num2;
 
-let random=getRandomValue();
-function getRandomValue(){
-  return Math.floor(Math.random()<1);
-}
+
+const random = Math.floor(Math.random() * 2) + 1
 const mod = num3 % num4;
 let max= getMaxNumber();
 function getMaxNumber(){
